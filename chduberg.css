@@ -2,16 +2,23 @@ body {
 	background-color: #333333;
     color: white;
 }
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 .button {
     background-color: #0158C2; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
     border-radius: 4px;
 }
 
