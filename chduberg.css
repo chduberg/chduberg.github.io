@@ -41,8 +41,9 @@ text-align: left;
 .aboutClass {
     order: -1;
     margin-top: 350px;
-    margin-left: px;
+  
     place-self: center;
+    text-align: left;
     font-size: 80%;
 }
 .loremClass {
