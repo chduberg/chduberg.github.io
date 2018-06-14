@@ -3,22 +3,51 @@ body {
     color: white;
 }
 
-.divClass {
-    margin-top: 100px;
+
+.grid-container {
+    font-family: "Roboto";
+    line-height: 1.5;
     font-size: 80%;
-    padding-left: 70px;
-    padding-right: 100px;
-   
+    display: block;
+    width: 100%;
+    
+}
+
+.headClass{
+    text-align: center;
 }
 
 .aboutClass {
-    margin-top: 170px;
-    font-size: 60%;
-    padding-left: 50px;
-    padding-right: 
-    color: #A9A9A9;
-    background-color: ;
+    font-size: 80%;
+    margin-top: 80px;
+    text-align: center;
+}
 
+.loremClass {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .grid-container {
+display: grid;
+grid-template-columns: 30% 40%;
+grid-template-rows: 100px 50%;
+font-family: "Roboto";
+line-height: 1.5;
+font-size: 80%;
+text-align: left;
+  }
+
+.aboutClass {
+    order: -1;
+    margin-top: 350px;
+    margin-left: px;
+    place-self: center;
+    font-size: 80%;
+}
+.loremClass {
+    margin-top: 100px;
+}
 }
 
 
@@ -45,9 +74,12 @@ a {
 
 a:link {
     text-decoration: none;
-    
 }
 
 a:visited {
     text-decoration: none;
 }
+
+
+
+
